@@ -1,0 +1,126 @@
+
+
+body{
+    background-color: #142850;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.row{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+/*Header*/
+.header{
+    padding: 20px;
+    background-color: #dae1e7;
+}
+
+.myName{
+    margin: 0;
+    padding-left: 15%;
+}
+
+.job{
+    font-style: italic;
+    margin: 0;
+    padding-left: 18%;
+}
+
+
+.nav-link:hover{
+    color: #00909e !important;
+}
+
+/*Body*/
+.body{
+    background-color: #00909e;
+    color: #ebebeb;
+    text-align: justify;
+    
+}
+
+.container-fluid{
+    padding: 3% 15%;
+    min-height: 73.3vh;
+}
+
+.container-light{
+    background-color: white;
+}
+
+img{
+    border-radius: 50%;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.littleBit{
+    margin-bottom: 5%;
+}
+
+.circles{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    line-height: 100px;
+    margin: 5% auto;
+}
+
+.circles:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.resume{
+    background-color: #120136;
+}
+
+.portfolio{
+    background-color: #035aa6;
+}
+
+.contact{
+    background-color: #fcbf1e;
+}
+
+.aboutMe{
+    margin-top: 5%;
+    font-size: 1.3rem;
+}
+
+/*Footer*/
+footer{
+    background-color: #142850;
+    color: #ebebeb;
+    padding: 2% 15%;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+
+}
+
+
+.footerLink{
+    color: white;
+    margin: 0% 2%;
+}
+
+.footerLink:hover{
+    color: #00909e;
+    text-decoration: none;
+}
