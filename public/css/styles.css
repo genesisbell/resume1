@@ -7,6 +7,27 @@ body{
     padding: 0;
 }
 
+p{
+    text-align: justify;
+}
+
+h5{
+    text-align: center;
+    letter-spacing: 3px;
+    margin-top: 2%;
+    font-weight: bold;
+}
+
+h6 {
+    font-weight: bold;
+    display: inline;
+}
+
+span{
+    font-style: italic;
+    font-size: .85rem;
+}
+
 .row{
     margin: 0;
 }
@@ -36,8 +57,13 @@ a:hover{
     font-style: italic;
     margin: 0;
     padding-left: 18%;
+    text-align: left;
+    font-weight: lighter;
 }
 
+.nav-link{
+    letter-spacing: 3px;
+}
 
 .nav-link:hover{
     color: #00909e !important;
@@ -47,7 +73,6 @@ a:hover{
 .body{
     background-color: #00909e;
     color: #ebebeb;
-    text-align: justify;
     
 }
 
@@ -98,8 +123,9 @@ img{
 }
 
 .aboutMe{
-    margin-top: 5%;
     font-size: 1.3rem;
+    margin-top: 5%;
+    
 }
 
 /*Footer*/
