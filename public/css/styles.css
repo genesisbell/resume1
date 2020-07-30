@@ -141,12 +141,23 @@ footer{
 }
 
 
-.footerLink{
+footer a{
     color: white;
     margin: 0% 2%;
 }
 
-.footerLink:hover{
+footer a:hover{
     color: #00909e;
     text-decoration: none;
+}
+
+footer p {
+    color: grey;
+    font-size: .7rem;
+    text-align: center;
+    margin: 0;
+}
+
+.copyright{
+    padding-top: 10px;
 }
