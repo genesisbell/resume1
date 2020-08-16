@@ -46,6 +46,7 @@ a:hover{
 .header{
     padding: 20px;
     background-color: #dae1e7;
+    background-image: url("../images/black-thread-light.png");
 }
 
 .myName{
@@ -73,6 +74,7 @@ a:hover{
 .body{
     background-color: #00909e;
     color: #ebebeb;
+    background-image: url("../images/black-thread-light.png");
     
 }
 
@@ -85,7 +87,7 @@ a:hover{
     background-color: white;
 }
 
-img{
+.imgMe{
     border-radius: 50%;
     max-width: 80%;
     margin-left: auto;
@@ -128,6 +130,30 @@ img{
     
 }
 
+/*Portfolio*/
+.carousel{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+}
+
+.carousel-indicators li{
+    filter: invert(100%);
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    filter: invert(100%);
+}
+
+.portfolio-link{
+    color: black;
+    display: block;
+}
+
+.portfolio-link:hover{
+    color: #00909e;
+}
+
 /*Footer*/
 footer{
     background-color: #142850;
@@ -137,7 +163,8 @@ footer{
     position: relative;
     bottom: 0;
     width: 100%;
-
+    background-color: #0b0047;
+    background-image: url("../images/black-thread.png");
 }
 
 
